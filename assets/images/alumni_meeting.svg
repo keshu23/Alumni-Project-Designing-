@@ -1,0 +1,25 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Group of people representing alumni meeting -->
+  <rect x="0" y="0" width="200" height="150" fill="none"/>
+  
+  <!-- Person 1 -->
+  <circle cx="50" cy="40" r="15" fill="#FFFFFF"/>
+  <rect x="40" y="55" width="20" height="30" fill="#FFFFFF"/>
+  
+  <!-- Person 2 -->
+  <circle cx="90" cy="40" r="15" fill="#FFFFFF"/>
+  <rect x="80" y="55" width="20" height="30" fill="#FFFFFF"/>
+  
+  <!-- Person 3 -->
+  <circle cx="130" cy="40" r="15" fill="#FFFFFF"/>
+  <rect x="120" y="55" width="20" height="30" fill="#FFFFFF"/>
+  
+  <!-- Table -->
+  <rect x="30" y="90" width="140" height="10" fill="#FFFFFF"/>
+  <rect x="40" y="100" width="10" height="30" fill="#FFFFFF"/>
+  <rect x="150" y="100" width="10" height="30" fill="#FFFFFF"/>
+  
+  <!-- Speech bubbles -->
+  <ellipse cx="60" cy="20" rx="20" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="120" cy="20" rx="20" ry="10" fill="#FFFFFF"/>
+</svg>
