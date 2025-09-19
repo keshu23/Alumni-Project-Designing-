@@ -1,16 +1,30 @@
-# alumni_project_designing
+# Fooocus Google Colab 🚀
 
-A new Flutter project.
+This repository contains a **Google Colab notebook** for running [Fooocus](https://github.com/lllyasviel/Fooocus) — an easy-to-use tool for **AI image enhancement and generation**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Features
+- Run Fooocus directly in **Google Colab** with GPU support.
+- No local setup required.
+- Supports **image enhancement, upscaling, and AI image generation**.
+- Easy web UI (`--share`) for quick access.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ⚡ Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Open in Google Colab
+Click the badge below to launch the notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo-name>/blob/main/fooocus_colab.ipynb)
+
+### 2. Run the Notebook
+The main cell installs dependencies, clones Fooocus, and runs the server:
+
+```bash
+!pip install pygit2==1.15.1
+%cd /content
+!git clone https://github.com/lllyasviel/Fooocus.git
+%cd /content/Fooocus
+!python entry_with_update.py --share --always-high-vram
